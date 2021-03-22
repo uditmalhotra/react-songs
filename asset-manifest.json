@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-songs/static/css/main.118fc1dd.chunk.css",
+    "main.js": "/react-songs/static/js/main.a53cab22.chunk.js",
+    "main.js.map": "/react-songs/static/js/main.a53cab22.chunk.js.map",
+    "runtime-main.js": "/react-songs/static/js/runtime-main.f2f42105.js",
+    "runtime-main.js.map": "/react-songs/static/js/runtime-main.f2f42105.js.map",
+    "static/js/2.97a75fe9.chunk.js": "/react-songs/static/js/2.97a75fe9.chunk.js",
+    "static/js/2.97a75fe9.chunk.js.map": "/react-songs/static/js/2.97a75fe9.chunk.js.map",
+    "index.html": "/react-songs/index.html",
+    "static/css/main.118fc1dd.chunk.css.map": "/react-songs/static/css/main.118fc1dd.chunk.css.map",
+    "static/js/2.97a75fe9.chunk.js.LICENSE.txt": "/react-songs/static/js/2.97a75fe9.chunk.js.LICENSE.txt",
+    "static/media/blognews1.70c595e8.png": "/react-songs/static/media/blognews1.70c595e8.png",
+    "static/media/blognews2.dc3d390f.png": "/react-songs/static/media/blognews2.dc3d390f.png",
+    "static/media/blognews3.b6ec8139.png": "/react-songs/static/media/blognews3.b6ec8139.png",
+    "static/media/featured.77cd6bc0.png": "/react-songs/static/media/featured.77cd6bc0.png",
+    "static/media/Hero.css": "/react-songs/static/media/hero-img.75a9a5ce.png",
+    "static/media/person.e8f60c98.png": "/react-songs/static/media/person.e8f60c98.png",
+    "static/media/product1.27b1a9d2.png": "/react-songs/static/media/product1.27b1a9d2.png",
+    "static/media/product2.ab8eae6d.png": "/react-songs/static/media/product2.ab8eae6d.png",
+    "static/media/product3.556bab43.png": "/react-songs/static/media/product3.556bab43.png",
+    "static/media/services.c9d12473.png": "/react-songs/static/media/services.c9d12473.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2f42105.js",
+    "static/js/2.97a75fe9.chunk.js",
+    "static/css/main.118fc1dd.chunk.css",
+    "static/js/main.a53cab22.chunk.js"
+  ]
+}
