@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Info from './components/Info';
+import Featured from './components/Featured';
+import Products from './components/Products';
+import Services from './components/Services';
+import Quote from './components/Quote';
+import BlogNews from './components/BlogNews';
+import Footer from './components/Footer';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Hero />
+        <Info />
+        <Featured />
+        <Products />
+        <Services />
+        <Quote />
+        <BlogNews />
+        <Footer />
+        <Switch>
+          <route path="/" exact />
+        </Switch>
+      </Router>
+    </>
   );
 }
 

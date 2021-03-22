@@ -1,0 +1,190 @@
+.blognews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+  background-color: #FAFAFA;
+}
+
+.blognews h1 {
+  margin: 0;
+  margin-top: 80px;
+  margin-bottom: 16px;
+  color: #121212;
+}
+
+.blognews .blognews-svg {
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+.blognews .blognews-svg .a {
+  fill: none;
+  stroke: #d1d1d1;
+}
+
+.blognews .blognews-svg .b {
+  fill: #de7338;
+  font-size: 20px;
+  font-family: Helvetica-Bold, Helvetica;
+  font-weight: 700;
+}
+
+.blognews .blognews-area {
+  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.blognews .blognews-area .blognews-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 350px;
+  height: auto;
+  padding: 0px 4px 0px 4px;
+  margin: 0px 20px 0px 28px;
+}
+
+.blognews .blognews-area .blognews-card .image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 342px;
+  height: 192px;
+  background-color: white;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.blognews .blognews-area .blognews-card .img-cover-none {
+  display: none;
+}
+
+.blognews .blognews-area .blognews-card .img-cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 342px;
+  height: 192px;
+  background-color: transparent;
+  margin-bottom: 90px;
+  position: absolute;
+}
+
+.blognews .blognews-area .blognews-card .img-cover div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background-color: black;
+  opacity: 80%;
+}
+
+.blognews .blognews-area .blognews-card .img-cover div p {
+  color: white;
+}
+
+.blognews .blognews-area .blognews-card .blognews-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blognews .blognews-area .blognews-card .blognews-info .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 8px 0px 8px;
+  border-right: 1px solid rgba(102, 102, 102, 0.5);
+}
+
+.blognews .blognews-area .blognews-card .blognews-info .date h1 {
+  font-size: 44px;
+  color: #DE7338;
+  margin: 0;
+}
+
+.blognews .blognews-area .blognews-card .blognews-info .date p {
+  font-size: 10px;
+  color: #999999;
+  margin: 0;
+}
+
+.blognews .blognews-area .blognews-card .blognews-info .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 8px 0px 8px;
+}
+
+.blognews .blognews-area .blognews-card .blognews-info .info h2 {
+  font-size: 14px;
+  color: #121212;
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+.blognews .blognews-area .blognews-card .blognews-info .info p {
+  font-size: 12px;
+  color: #666666;
+  margin: 0;
+}
+/*# sourceMappingURL=BlogNews.css.map */

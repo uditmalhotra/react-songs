@@ -1,0 +1,151 @@
+.products{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background-color: #FAFAFA;
+    h1{
+        margin: 0;
+        margin-top: 80px;
+        margin-bottom: 16px;
+        color: #121212;
+    }
+    .products-svg{
+        font-size: 40px;
+        margin: 0;
+        margin-bottom: 100px;
+        .a{
+            fill:none;
+            stroke:#d1d1d1;
+        }
+        .b{
+            fill:#de7338;
+            font-size:20px;
+            font-family:Helvetica-Bold, Helvetica;
+            font-weight:700;
+        }
+    }
+    .products-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .pointer-svg-left, .pointer-svg-right{
+            height: 80px;
+            width: auto;
+            margin: 0px 40px 0px 40px;
+            .a{
+                fill:#f1f1f1;
+                stroke:#fff;
+                stroke-width:8px;
+            }
+        }
+        .pointer-svg-left{
+            transform: rotateY(180deg);
+        }
+    }
+    .products-area{
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        .products-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 40px 0px 40px;
+            .image-container{
+                display: flex;
+                width: 303px;
+                height: 304px;
+                background-color: white;
+                margin-bottom: 17px;
+                position: relative;
+            }
+            .img-cover-none{
+                display: none;
+            }
+            .img-cover{
+                display: flex;
+                width: 303px;
+                height: 304px;
+                background-color: transparent;
+                margin-bottom: 85px;
+                position: absolute;
+                div{
+                    position: absolute;
+                    width: inherit;
+                    height: inherit;
+                    background-color: black;
+                    opacity: 20%;
+                }
+                p{
+                    color: white;
+                    position: absolute;
+                    left: 10px;
+                    top: 15px;
+                    z-index: 5;
+                    font-size: 14px;
+                    font-weight: bold;
+                    transform: rotate(-45deg);
+                }
+                .sale-svg{
+                    position: absolute;
+                    left: -32px;
+                    top: -33px;
+                    z-index: 1;
+                    .a{
+                        fill:#de7338;
+                    }
+                }
+                .heart-svg{
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                    .a{
+                        fill:none;
+                        stroke:#fff;
+                        stroke-linecap:round;
+                        stroke-linejoin:round;
+                        stroke-width:1.4px;
+                    }
+                }
+                button{
+                    position: absolute;
+                    right: 70px;
+                    bottom: 20px;
+                    align-self: flex-end;
+                    width: auto;
+                    height: 40px;
+                    color: white;
+                    background-color: #DE7338;
+                    border: 1px solid #DE7338;
+                    border-radius: 25px;
+                    padding: 0px 24px 0px 24px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                    outline: none;
+                }
+            }
+            h5{
+                margin: 0;
+                margin-bottom: 21px;
+                font-size: 14px;
+                color: #121212;
+            }
+            p{
+                margin: 0;
+                font-size: 24px;
+            }
+            .discount{
+                font-size: 20px;
+                color: #666666;
+                font-style: italic;
+                text-decoration: line-through;
+            }
+        }
+    }
+}

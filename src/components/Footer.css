@@ -1,0 +1,246 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  background-color: #1B1B1B;
+}
+
+.footer .footer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .footer-info .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 33vw;
+  padding: 30px;
+  margin: 30px;
+}
+
+.footer .footer-info #info2 {
+  border-left: 1px solid rgba(102, 102, 102, 0.2);
+  border-right: 1px solid rgba(102, 102, 102, 0.2);
+  padding: 30px 80px 30px 80px;
+}
+
+.footer .footer-info #info2 h2 {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.footer .footer-info #info2 .signup {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-info #info2 .signup input {
+  height: 36px;
+  width: auto;
+  border: 1px solid #D1D1D1;
+  border-right: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px 0px 0px 5px;
+  padding: 5px 10px 5px 10px;
+  outline: none;
+}
+
+.footer .footer-info #info2 .signup button {
+  font-size: 12px;
+  height: 36px;
+  width: auto;
+  border: 1px solid #de7338;
+  background-color: #de7338;
+  color: white;
+  border-radius: 0px 5px 5px 0px;
+  width: 86px;
+  outline: none;
+}
+
+.footer .footer-info #info2 .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-info #info3 h2 {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.footer .footer-info #info3 p {
+  font-size: 14px;
+  margin: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .footer-info #info3 #pl {
+  margin-bottom: 40px;
+}
+
+.footer .footer-info #info3 span {
+  color: #F1F1F1;
+  font-weight: lighter;
+}
+
+.footer .footer-info #info3 .time {
+  font-size: 14px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999999;
+}
+
+.footer .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid rgba(102, 102, 102, 0.3);
+  padding: 0px 50px 0px 50px;
+}
+
+.footer .footer-links .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer .footer-links .links ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[7];
+      grid-template-columns: repeat(7, auto);
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer-links .links ul li {
+  color: #D1D1D1;
+  font-size: 12px;
+  padding: 0px 20px 0px 20px;
+}
+
+.footer .footer-links .links ul p {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.footer .footer-links p {
+  color: #D1D1D1;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 20px;
+}
+
+.instagram {
+  padding: 5px;
+  padding-left: 0px;
+  width: 30px;
+  height: auto;
+}
+
+.instagram .a, .instagram .b {
+  fill: #f4f4f4;
+}
+
+.instagram .a {
+  stroke: #1b1b1b;
+}
+
+.facebook {
+  padding: 5px;
+  width: 30px;
+  height: auto;
+}
+
+.facebook .a {
+  fill: none;
+  stroke: #f4f4f4;
+}
+
+.linkedin {
+  padding: 5px;
+  width: 30px;
+  height: auto;
+}
+
+.linkedin .a {
+  fill: none;
+  stroke: #fff;
+}
+
+.twitter {
+  padding: 5px;
+  width: 30px;
+  height: auto;
+}
+
+.twitter .a {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: square;
+}
+/*# sourceMappingURL=Footer.css.map */

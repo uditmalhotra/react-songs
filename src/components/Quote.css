@@ -1,0 +1,103 @@
+.quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+  background-color: #DE7338;
+  padding: 80px 50px 80px 50px;
+}
+
+.quote .pointer-svg-left, .quote .pointer-svg-right {
+  height: 150px;
+  width: auto;
+  margin: 0px 40px 0px 40px;
+}
+
+.quote .pointer-svg-left .a, .quote .pointer-svg-right .a {
+  fill: #f1f1f1;
+  stroke: #de7338;
+  stroke-width: 8px;
+  opacity: 0.2;
+}
+
+.quote .pointer-svg-left {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.quote .image-svg {
+  padding: 1px;
+}
+
+.quote .image-svg .a, .quote .image-svg .c {
+  fill: none;
+}
+
+.quote .image-svg .a {
+  stroke: #d1d1d1;
+  stroke-width: 2px;
+}
+
+.quote .image-svg .b {
+  stroke: none;
+}
+
+.quote .image-svgs .a {
+  fill: #fff;
+}
+
+.quote .quote-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 150px 0px 150px;
+}
+
+.quote .quote-info img {
+  width: 92px;
+  height: 92px;
+  border: 6px solid #f1c6af;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.quote .quote-info h1 {
+  font-size: 14px;
+  color: white;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.quote .quote-info h3 {
+  font-size: 12px;
+  color: white;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.quote .quote-info p {
+  font-size: 16px;
+  color: white;
+  line-height: 2;
+  margin-bottom: 100px;
+}
+/*# sourceMappingURL=Quote.css.map */

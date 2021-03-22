@@ -1,0 +1,187 @@
+.featured{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    h1{
+        margin: 0;
+        margin-top: 80px;
+        margin-bottom: 16px;
+        color: #121212;
+    }
+    .hero-svg{
+        font-size: 40px;
+        margin: 0;
+        margin-bottom: 100px;
+        .a{
+            fill:none;
+            stroke:#d1d1d1;
+        }
+        .b{
+            fill:#de7338;
+            font-size:20px;
+            font-family:Helvetica-Bold, Helvetica;
+            font-weight:700;
+        }
+    }
+    .featured-area{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .pointer-svg-left, .pointer-svg-right{
+            height: 80px;
+            width: auto;
+            margin: 0px 40px 0px 40px;
+            .a{
+                fill:#f1f1f1;
+                stroke:#fff;
+                stroke-width:8px;
+            }
+        }
+        .pointer-svg-left{
+            transform: rotateY(180deg);
+        }
+    }
+    .featured-image-area{
+        display: flex;
+        flex-direction: column;
+        .sale{
+            align-self: flex-end;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            width: 54px;
+            height: 54px;
+            background-color: #DE7338;
+            p{
+                margin: 0;
+                font-size: 12px;
+                color: white;
+            }
+        }
+        img{
+            width: 250px;
+            height: auto;
+            margin: 0px 40px 0px 40px
+        }
+        .image-pointer{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            margin-bottom: 10px;
+        }
+        .image-svg{
+            padding: 1px;
+            .a,.c{
+                fill:none;
+            }
+            .a{
+                stroke:#d1d1d1;
+                stroke-width:2px;
+            }
+            .b{
+                stroke:none;
+            }
+        }
+    }  
+        .featured-info-title{
+            color: #121212;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        .featured-review{
+            color: #999999;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin: 0;
+            margin-bottom: 30px;
+        }
+        .featured-price{
+            color: #000000;
+            font-size: 32px;
+            margin: 0;
+            margin-bottom: 26px;
+        }
+        .featured-discount{
+            font-style: italic;
+            text-decoration: line-through;
+            color: #666666;
+            font-size: 20px;
+            margin: 0;
+        }
+        .featured-info-list{
+            list-style: none;
+            padding: 0;
+            margin-bottom: 26px;
+            .featured-list{
+                color: #666666;
+                font-size: 16px;
+            }
+        }
+        .read-more{
+            color: #DE7338;
+            text-decoration: none;
+        }
+}
+.featured-buttons{
+    display: flex;
+    flex-direction: row;
+    .cart{
+        width: auto;
+        height: 40px;
+        color: white;
+        background-color: #DE7338;
+        border: 1px solid #DE7338;
+        border-radius: 25px;
+        padding: 0px 24px 0px 24px;
+        margin-right: 10px;
+        outline: none;
+        white-space: nowrap;
+    }
+    .wishlist{
+        width: auto;
+        height: 40px;
+        color: rgb(19,19,19);
+        background-color: white;
+        border: 1px solid rgb(19,19,19);
+        border-radius: 25px;
+        padding: 0px 24px 0px 24px;
+        outline: none;
+        white-space: nowrap;
+    }
+}
+.featured-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.featured-info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 66px;
+}
+@media screen and (max-width: 960px) {
+    .featured-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .featured-info{
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .featured-image-area{
+        align-items: center;
+        justify-content: center;
+    }
+    .featured-info-list{
+        display: none;
+    }
+  }
+  

@@ -1,0 +1,169 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: #1B1B1B;
+    .footer-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .info{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 33vw;
+            padding: 30px;
+            margin: 30px;
+        }
+        #info2{
+            border-left: 1px solid rgba(102,102,102,0.2);
+            border-right: 1px solid rgba(102,102,102,0.2);
+            padding: 30px 80px 30px 80px;
+            h2{
+                font-size: 16px;
+                margin: 0;
+                margin-bottom: 16px;
+                color: white;
+            }
+            .signup{
+                margin-bottom: 40px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                input{
+                    height: 36px;
+                    width: auto;
+                    border: 1px solid #D1D1D1;
+                    border-right: none;
+                    background-color: black;
+                    color: white;
+                    border-radius: 5px 0px 0px 5px;
+                    padding: 5px 10px 5px 10px;
+                    outline: none;
+                }
+                button{
+                    font-size: 12px;
+                    height: 36px;
+                    width: auto;
+                    border: 1px solid rgb(222,115,56);
+                    background-color: rgb(222,115,56);
+                    color: white;
+                    border-radius: 0px 5px 5px 0px;
+                    width: 86px;
+                    outline: none;
+                }
+            }
+            .social{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+        #info3{
+            h2{
+                font-size: 16px;
+                margin: 0;
+                margin-bottom: 16px;
+                color: white;
+            }
+            p{
+                font-size: 14px;
+                margin: 0;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #pl{
+                margin-bottom: 40px;
+            }
+            span{
+                color: #F1F1F1;
+                font-weight: lighter;
+            }
+            .time{
+                font-size: 14px;
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #999999;
+            }
+        }
+    }
+    .footer-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid rgba(102,102,102,0.3);
+        padding: 0px 50px 0px 50px;
+        .links{
+            display: flex;
+            flex-direction: row;
+            ul{
+                display: grid;
+                grid-template-columns: repeat(7, auto);
+                list-style: none;
+                padding: 0;
+                
+                li{
+                    color: #D1D1D1;
+                    font-size: 12px;
+                    padding: 0px 20px 0px 20px;
+                }
+                p{
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0;
+                }
+            }
+        }
+        p{
+            color: #D1D1D1;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-right: 20px;
+        }
+    }
+}
+.instagram{
+    padding: 5px;
+    padding-left: 0px;
+    width: 30px;
+    height: auto;
+    .a,.b{
+        fill:#f4f4f4;
+    }
+    .a{
+        stroke:#1b1b1b;
+    }
+}
+.facebook{
+    padding: 5px;
+    width: 30px;
+    height: auto;
+    .a{
+        fill:none;
+        stroke:#f4f4f4;
+    }
+}
+.linkedin{
+    padding: 5px;
+    width: 30px;
+    height: auto;
+    .a{
+        fill:none;
+        stroke:#fff;
+    }
+}
+.twitter{
+    padding: 5px;
+    width: 30px;
+    height: auto;
+    .a{
+        fill:none;
+        stroke:#fff;
+        stroke-linecap:square;
+    }
+}
