@@ -1,3 +1,4 @@
+//CSS for Products component
 .products{
     display: flex;
     height: 100vh;
@@ -9,6 +10,7 @@
     h1{
         margin: 0;
         margin-top: 80px;
+        font-size: 40px;
         margin-bottom: 16px;
         color: #121212;
     }
@@ -145,6 +147,65 @@
                 color: #666666;
                 font-style: italic;
                 text-decoration: line-through;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    #pc3{
+        display: none;
+    }
+    .products{
+        height: 340px;
+        h1{
+            font-size: 19px;
+            margin-top: 20px;
+        }
+        .products-svg{
+            margin-bottom: 20px;
+        }
+        .products-area{
+            .products-card{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 150px;
+                padding: 0px 10px 0px 10px;
+                .image-container{
+                    display: flex;
+                    width: 96px;
+                    height: 96px;
+                    background-color: white;
+                    margin-bottom: 17px;
+                    position: relative;
+                }
+                h5{
+                    text-align: center;
+                    font-size: 10px;
+                }
+                p{
+                    margin: 0;
+                    font-size: 11px;
+                }
+                .discount{
+                    font-size: 9px;
+                }
+            }
+        }
+        .products-div{
+            .pointer-svg-left, .pointer-svg-right{
+                height: 40px;
+                width: auto;
+                margin: 0px 10px 0px 10px;
+                .a{
+                    fill:#f1f1f1;
+                    stroke:#fff;
+                    stroke-width:8px;
+                }
+            }
+            .pointer-svg-left{
+                transform: rotateY(180deg);
             }
         }
     }

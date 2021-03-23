@@ -30,7 +30,7 @@ function Products() {
                     <div className="products-area">
                         <div className="products-card">
                             <div className="image-container" onMouseOver={optionswitch1} >
-                                <img src={ product1 } alt="products image"/>
+                                <img src={ product1 } alt="products"/>
                             </div>
                             <div className={hover1 ? 'img-cover' : 'img-cover-none'} onMouseLeave={optionswitch1}>
                                 <div></div>
@@ -48,7 +48,7 @@ function Products() {
                         </div>
                         <div className="products-card">
                             <div className="image-container" onMouseOver={optionswitch2} >   
-                                <img src={ product2 } alt="products image"/>
+                                <img src={ product2 } alt="products"/>
                             </div>
                             <div className={hover2 ? 'img-cover' : 'img-cover-none'} onMouseLeave={optionswitch2}>
                                 <div></div>
@@ -64,9 +64,9 @@ function Products() {
                             <h5>Flexson PLAY : 5 Gen2 Wall Mount</h5>
                             <p><span className="discount">$195.95</span>&nbsp;&nbsp;&nbsp;$194.95</p>
                         </div>
-                        <div className="products-card">
+                        <div className="products-card" id="pc3">
                             <div className="image-container" onMouseOver={optionswitch3} >
-                                <img src={ product3 } alt="products image"/>
+                                <img src={ product3 } alt="products"/>
                             </div>
                             <div className={hover3 ? 'img-cover' : 'img-cover-none'} onMouseLeave={optionswitch3}>
                                 <div></div>

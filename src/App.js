@@ -8,7 +8,7 @@ import Services from './components/Services';
 import Quote from './components/Quote';
 import BlogNews from './components/BlogNews';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import './App.css';
 
 function App() {

@@ -7,7 +7,7 @@ function Featured() {
         <>
             <div className="featured">
                 <h1>FEATURED PRODUCTS</h1>
-                <svg className="hero-svg" width="132" height="20" viewBox="0 0 132 20">
+                <svg className="featured-svg" width="132" height="20" viewBox="0 0 132 20">
                         <g transform="translate(-617 -932)">
                             <line class="a" x2="48" transform="translate(617 942)"/>
                             <line class="a" x2="48" transform="translate(701 942)"/>
@@ -23,7 +23,7 @@ function Featured() {
                     <div className="featured-card">
                         <div className="featured-image-area">
                             <div class="sale"><p>SALE</p></div>
-                            <img src={ featured } alt="Featured Image"/>
+                            <img src={ featured } alt="Featured"/>
                             <div className="image-pointer">
                                 <svg width="14.142" height="14.142" viewBox="0 0 14.142 14.142">
                                     <rect width="10" height="10" transform="translate(0 7.071) rotate(-45)"/>

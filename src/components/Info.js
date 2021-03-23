@@ -1,20 +1,6 @@
 import React from 'react'
 import '../components/Info.css'
-import { gsap} from 'gsap'
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 function Info() {
-    gsap.registerPlugin(ScrollTrigger);
-    var t1 = gsap.timeline();
-    gsap.from(".hero-info-card",{
-        scrollTrigger:{ 
-            trigger: '.hero-info-card',
-            start: "top bottom"
-        },
-        y: 50,
-        opacity: 0,
-        duration: 0.9,
-        stagger: .3
-    })
     return (
         <>
         <div className="hero-info">

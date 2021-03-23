@@ -28,7 +28,7 @@ function Services() {
                         <button className="talk">TALK TO EXPERT</button>
                     </div>
                     <div className="services-images">
-                        <img src={ servicesimage } alt="services images" />
+                        <img src={ servicesimage } alt="services" />
                     </div>
                 </div>
             </div>

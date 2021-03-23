@@ -1,17 +1,19 @@
+//CSS for Featured component
 .featured{
     display: flex;
-    height: 100vh;
+    height: 900px;
     width: 100%;
     flex-direction: column;
     align-items: center;
     padding: 1em;
     h1{
         margin: 0;
+        font-size: 40px;
         margin-top: 80px;
         margin-bottom: 16px;
         color: #121212;
     }
-    .hero-svg{
+    .featured-svg{
         font-size: 40px;
         margin: 0;
         margin-bottom: 100px;
@@ -182,6 +184,64 @@
     }
     .featured-info-list{
         display: none;
+    }
+    .featured-buttons{
+        margin-bottom: 10px;
+    }
+    .featured{
+        height: 680px;
+        h1{
+            font-size: 19px;
+            margin-top: 20px;
+        }
+        .featured-svg{
+            margin-bottom: 20px;
+        }
+        .featured-area{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .pointer-svg-left, .pointer-svg-right{
+                height: 40px;
+                width: auto;
+                margin: 0px 5px 0px 5px;
+                .a{
+                    fill:#f1f1f1;
+                    stroke:#fff;
+                    stroke-width:8px;
+                }
+            }
+            .pointer-svg-left{
+                transform: rotateY(180deg);
+            }
+        }
+    }
+    .featured-buttons{
+        display: flex;
+        flex-direction: row;
+        .cart{
+            width: auto;
+            height: 40px;
+            color: white;
+            background-color: #DE7338;
+            border: 1px solid #DE7338;
+            border-radius: 25px;
+            padding: 0px 24px 0px 24px;
+            margin-right: 10px;
+            outline: none;
+            white-space: nowrap;
+        }
+        .wishlist{
+            width: auto;
+            height: 40px;
+            color: rgb(19,19,19);
+            background-color: white;
+            border: 1px solid rgb(19,19,19);
+            border-radius: 25px;
+            padding: 0px 24px 0px 24px;
+            outline: none;
+            white-space: nowrap;
+        }
     }
   }
   

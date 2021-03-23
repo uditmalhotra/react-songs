@@ -13,7 +13,7 @@ function BlogNews() {
     return (
         <>
            <div className="blognews">
-                <h1>LATEST PRODUCTS</h1>
+                <h1>BLOG AND NEWS</h1>
                 <svg className="blognews-svg" width="132" height="20" viewBox="0 0 132 20">
                         <g transform="translate(-617 -932)">
                             <line class="a" x2="48" transform="translate(617 942)"/>
@@ -24,9 +24,9 @@ function BlogNews() {
                         </g>
                 </svg>
                 <div className="blognews-area">
-                <div className="blognews-card">
+                    <div className="blognews-card">
                         <div className="image-container" onMouseOver={optionswitch1} >
-                            <img src={ blognews1 } alt="products image"/>
+                            <img src={ blognews1 } alt="products"/>
                         </div>
                         <div className={hover1 ? 'img-cover' : 'img-cover-none'} onMouseLeave={optionswitch1}>
                             <div><p>VIEW MORE</p></div>
@@ -42,9 +42,9 @@ function BlogNews() {
                             </div>
                         </div>
                     </div>
-                    <div className="blognews-card">
+                    <div className="blognews-card card-hide">
                         <div className="image-container" onMouseOver={optionswitch2} >
-                            <img src={ blognews2 } alt="products image"/>
+                            <img src={ blognews2 } alt="products"/>
                         </div>
                         <div className={hover2 ? 'img-cover' : 'img-cover-none'} onMouseLeave={optionswitch2}>
                             <div><p>VIEW MORE</p></div>
@@ -60,9 +60,9 @@ function BlogNews() {
                             </div>
                         </div>
                     </div>
-                    <div className="blognews-card">
+                    <div className="blognews-card card-hide">
                         <div className="image-container" onMouseOver={optionswitch3} >
-                            <img src={ blognews3 } alt="products image"/>
+                            <img src={ blognews3 } alt="products"/>
                         </div>
                         <div className={hover3 ? 'img-cover' : 'img-cover-none'} onMouseLeave={optionswitch3}>
                             <div><p>VIEW MORE</p></div>

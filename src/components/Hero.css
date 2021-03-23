@@ -32,21 +32,22 @@
           align-items: center;
 }
 
-.hero-area h3 {
+h1 {
+  color: white;
+  font-size: 68px;
+  margin: 0;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+h3 {
   color: white;
   font-size: 24px;
   margin: 0;
   margin-bottom: 8px;
 }
 
-.hero-area h1 {
-  color: white;
-  font-size: 68px;
-  margin: 0;
-  margin-bottom: 32px;
-}
-
-.hero-area button {
+button {
   color: white;
   background-color: #DE7338;
   width: 147px;
@@ -54,5 +55,21 @@
   border: none;
   border-radius: 25px;
   outline: none;
+}
+
+@media screen and (max-width: 960px) {
+  .hero {
+    height: 420px;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  button {
+    display: none;
+  }
 }
 /*# sourceMappingURL=Hero.css.map */

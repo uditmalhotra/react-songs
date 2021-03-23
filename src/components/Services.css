@@ -17,6 +17,7 @@
 .services h1 {
   margin: 0;
   margin-top: 60px;
+  font-size: 40px;
   margin-bottom: 16px;
   color: #121212;
 }
@@ -172,11 +173,82 @@
 }
 
 @media screen and (max-width: 960px) {
-  .services-content {
+  .services {
+    height: 683px;
+  }
+  .services h1 {
+    font-size: 19px;
+    margin-top: 20px;
+  }
+  .services .services-svg {
+    margin-bottom: 20px;
+  }
+  .services .services-buttons {
+    margin-bottom: 20px;
+  }
+  .services .services-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+  .services .services-images img {
+    width: 280px;
+    height: auto;
+  }
+  .services .services-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0px 40px 100px 40px;
+  }
+  .services .services-content .services-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0;
+  }
+  .services .services-content .services-text p {
+    font-size: 12px;
+    color: #121212;
+    line-height: 2;
+  }
+  .services .services-content .services-text .talk {
+    height: 40px;
+    width: auto;
+    color: white;
+    background-color: #DE7338;
+    border: 1px solid #DE7338;
+    border-radius: 25px;
+    padding: 0px 24px 0px 24px;
+    outline: none;
   }
 }
 /*# sourceMappingURL=Services.css.map */

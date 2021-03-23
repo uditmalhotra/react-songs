@@ -1,3 +1,4 @@
+//CSS for Hero component
 *{
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
@@ -18,27 +19,43 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+h1{
+    color: white;
+    font-size: 68px;
+    margin: 0;
+    margin-bottom: 8px;
+    text-align: center;
+}
+h3{
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+button{
+    color: white;
+    background-color: #DE7338;
+    width: 147px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
 
-    h3{
-        color: white;
-        font-size: 24px;
-        margin: 0;
-        margin-bottom: 8px;
+@media screen and (max-width: 960px) {
+    .hero{
+        height: 420px;
     }
     h1{
-        color: white;
-        font-size: 68px;
-        margin: 0;
-        margin-bottom: 32px;
+        font-size: 30px;
+        text-align: center;
+    }
+    h3{
+        font-size: 20px;
     }
     button{
-        color: white;
-        background-color: #DE7338;
-        width: 147px;
-        height: 40px;
-        border: none;
-        border-radius: 25px;
-        outline: none;
+        display: none;
     }
 }
 

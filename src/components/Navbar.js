@@ -9,7 +9,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/home" className="navbar-logo">
                         <span className="logo-col">L</span>O<span className="logo-col">G</span>O 
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>

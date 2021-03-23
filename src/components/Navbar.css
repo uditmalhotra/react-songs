@@ -44,6 +44,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar-logo {
@@ -83,6 +86,7 @@
       -ms-flex-pack: end;
           justify-content: end;
   padding: 0;
+  margin: 0;
 }
 
 .nav-menu-side {
@@ -115,6 +119,7 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  margin: 0;
 }
 
 .menu-icon {
@@ -168,11 +173,11 @@
     border-radius: 0px;
   }
   .navbar-logo {
-    font-size: 20px;
+    font-size: 30px;
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
-    margin-left: 30px;
+    margin-left: 40px;
   }
   .nav-divi {
     display: none;
@@ -229,11 +234,14 @@
     top: 1;
     left: 1;
     font-size: 1.2em;
-    padding-right: 1em;
+    padding-right: 2em;
     cursor: pointer;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+  }
+  .menu-icon i {
+    font-size: 25px;
   }
 }
 /*# sourceMappingURL=Navbar.css.map */
