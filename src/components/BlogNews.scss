@@ -132,6 +132,14 @@
             .card-hide{
                 display: none;
             }
+            .image-container{
+                width: 342px;
+                height: 192px;
+                img{
+                    width: 342px;
+                    height: 192px;  
+                }
+            }
         }
     }
 }
